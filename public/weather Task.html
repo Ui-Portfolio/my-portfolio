@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-in">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather Report</title>
+        <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+        <link rel="shortcut icon" href="../public/images/favicon.ico">
+        <style>
+            body {
+                color: black;
+            }
+            tfoot {
+                height: 200px;
+                color: black;
+                background-color: yellow;
+                border: none;
+                font-size: 30px;
+            }
+            table {
+                height: 500px;
+                width: 700px;
+                margin-left: 350px;
+                background-color: lightcoral;
+                color: white;
+                margin-top: 50px;
+                margin: center;
+            }
+            .tbody {
+                font-size: 50px;
+            }
+            .tbody2{
+                font-size: 30px;
+            }
+            input{
+                width: 720px;
+            }
+            .size{
+                font-size: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <table frame="void">
+            <thead>
+                <tr class="head">
+                    <th colspan="8" align="left"><h1>Ameerpet, TG</h1>Update a few minutes ago</th>
+                    <th class="size bi bi-box-arrow-up-right"></th>
+                    <th class="size bi bi-three-dots"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="">
+                    <td class="tbody bi bi-water"></td>
+                    <td class="tbody">24</td>
+                    <td class="size">&deg;C<br>F</td>
+                    <td class="size">30&deg;<br>25&deg;</td>
+                    <td class="size" colspan="5">wind:10KMPH<br>Humidity:74%</br></td>
+                </tr>
+                <tr>
+                    <tr class="tbody2">
+                        <td>Haze.</td>
+                        <td>Tue 12,</td>
+                        <td>6:05 pm</td>
+                    </tr>
+                    <tr class="tbody2">
+                        <td>9Am</td>
+                        <td>12pm</td>
+                        <td>3pm</td>
+                        <td>6pm</td>
+                        <td>9pm</td>
+                        <td>12Am</td>
+                        <td>3Am</td>
+                        <td>6Am</td>
+                    </tr>
+                    <tr><td colspan="12"><input type="range" min="1" max="100" value="10"></td></tr>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Tue 12</td>
+                    <td>Wed 13</td>
+                    <td>Thu 14</td>
+                    <td>Fri 15</td>
+                    <td>Sat 16</td>
+                    <td>Sun 17</td>
+                    <td>Mon 18</td>
+                    <td>Tue 19</td>
+                </tr>
+                <tr>
+                    <td class="bi bi-water"></td>
+                    <td class="bi bi-clouds"></td>
+                    <td class="bi bi-clouds"></td>
+                    <td class="bi bi-clouds"></td>
+                    <td class="bi bi-clouds"></td>
+                    <td class="bi bi-clouds"></td>
+                    <td class="bi bi-clouds"></td>
+                    <td class="bi bi-clouds"></td>
+                </tr>
+                <tr>
+                    <td>30&deg;</td>
+                    <td>30&deg;</td>
+                    <td>30&deg;</td>
+                    <td>30&deg;</td>
+                    <td>30&deg;</td>
+                    <td>30&deg;</td>
+                    <td>30&deg;</td>
+                    <td>30&deg;</td>
+                </tr>
+                <tr>
+                    <td>23&deg;</td>
+                    <td>23&deg;</td>
+                    <td>23&deg;</td>
+                    <td>23&deg;</td>
+                    <td>23&deg;</td>
+                    <td>23&deg;</td>
+                    <td>23&deg;</td>
+                    <td>23&deg;</td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>
